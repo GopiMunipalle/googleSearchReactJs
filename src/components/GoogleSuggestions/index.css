@@ -1,0 +1,78 @@
+/* Write your CSS here */
+@media screen and (min-width: 768px) and (max-width: 2200px) {
+  .bg-container {
+    background-color: #fff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .google-container {
+    text-align: center;
+  }
+  .google-card-container {
+    display: flex;
+  }
+  .google-logo {
+    width: 300px;
+  }
+  .search-logo {
+    height: 25px;
+    width: 25px;
+  }
+  .input-element {
+    border: none;
+    cursor: pointer;
+    outline: none;
+  }
+  .google-card-search-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    width: 90%;
+    height: 90%;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .bg-container {
+    background-color: #fff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .google-container {
+    text-align: center;
+  }
+  .google-card-container {
+    display: flex;
+  }
+  .google-logo {
+    width: 250px;
+  }
+  .search-logo {
+    height: 25px;
+    width: 25px;
+  }
+  .input-element {
+    border: none;
+    cursor: pointer;
+    outline: none;
+  }
+  .google-card-search-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    width: 70%;
+    height: 70%;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+}
